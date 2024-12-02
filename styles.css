@@ -33,6 +33,13 @@ main{
     line-height:22.5px;
     padding:12px 20px;
 }
+h1,h2,h3{
+    font-weight: normal;
+}
+p{
+    font-size: 16px;
+}
+/* #home and it's elements */
 #home{
     width:100%;
     border:1px solid gold;
@@ -45,10 +52,8 @@ main{
     line-height:96px;
     margin:10px 0px;
     text-align:center;
-    font-weight: normal;
 }
 #home p{
-    font-size:15px;
     line-height:22.5px;
     margin:10px 0px;
     text-align:center;
@@ -56,4 +61,121 @@ main{
 #home img{
     max-width:100%;
     height:auto;
+    display:inline;
+    line-height:22.5px;
+    text-align:center;
+    border:1px solid blue;
 }
+/* about */
+#about{
+    border:1px solid red;
+    color:var(--color-secondary);
+    font-size:15px;
+    line-height:22.5px;
+    margin:0px 20px;
+    padding:64px 0px;
+    text-align:justify;
+}
+/* givinh h2 and h3 same color */
+#about h2, #about h3{
+    color:var(--color-tertiary);
+}
+#about h2{
+    font-size:30px;
+    line-height:45px;
+    margin:10px 0px;
+}
+/* a didvider line  */
+hr{
+    background-color: var(--color-tertiary);
+    width:20%;
+    height: 1px;
+    margin:20px 0px;
+}
+/* margintop and bottom the p */
+#hero-section p{
+    margin:15px 0px;
+    border:1px solid olivedrab;
+}
+#about h3{
+    font-size:24px;
+    line-height:36px;
+    margin:10px 0px;
+    padding:16px 0px;
+}
+/* styling the container showcasing the knowledge */
+#skills{
+    width:100%;
+    border:1px solid blue;
+}
+#skills p{
+    letter-spacing:4px;
+    line-height:22.5px;
+    margin:15px 0px;
+    text-align:justify;
+}
+.skills-container{
+    width:100%;
+    border:1px solid green;
+}
+/* div for ranking  */
+.skills-container .rate{
+    width:100%;
+    background:var(--color-primary);
+}
+/* differentiating the ranks  */
+.rate div{
+    width:95%;
+    height: fit-content;
+    padding:15px;
+    background: var(--color-hover);
+}
+
+.skills-container .rate.second div{
+    width:69%;
+
+}.skills-container .rate.third div{
+    width:80%;
+}
+/* the activities container  */
+.activities{
+    width:100%;
+    background-color:var(--color-tertiary);
+    font-size:15px;
+    line-height:22.5px;
+    margin:16px 0px;
+    padding:16px 0px;
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activities div{
+    width:20%;
+    margin:16px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:var(--background-primary-color);
+    font-size:16px;
+}
+.activities span{
+    font-weight: 500;
+}
+/* styling all the buttons */
+button{
+    background-color:var(--background-secondary-color);
+    display:inline-block;
+    justify-content: center;
+    align-items:flex-start;
+    font-size:16px;
+    padding:12px 24px;
+    text-align:center;
+    border:1px solid transparent;
+}
+button i{
+    margin-right: 5px;
+}
+
+

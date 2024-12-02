@@ -15,11 +15,45 @@
     --color-anchor:#4caf50;
     --background-secondary-color:#ccc;
     --background-primary-color:#000;
-
-    --font-family:"Montserrat", sans-serif;
+    --font-family:"Montserrat";
 }
 body{
+    width:100%;
+    display:flex;
     font-family: var(--font-family);
     background-color: var(--background-primary-color);
     color: var(--color-secondary);
+}
+/* moving next to main */
+main{
+    width:85%;
+    border:1px solid var(--color-anchor);
+    color:#fff;
+    font-size:15px;
+    line-height:22.5px;
+    padding:12px 20px;
+}
+#home{
+    width:100%;
+    border:1px solid gold;
+    padding:32px 16px;
+    text-align:center;
+    color:var(--color-primary);
+}
+#home h1{
+    font-size:64px;
+    line-height:96px;
+    margin:10px 0px;
+    text-align:center;
+    font-weight: normal;
+}
+#home p{
+    font-size:15px;
+    line-height:22.5px;
+    margin:10px 0px;
+    text-align:center;
+}
+#home img{
+    max-width:100%;
+    height:auto;
 }

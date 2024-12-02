@@ -28,7 +28,7 @@ body{
 main{
     width:85%;
     border:1px solid var(--color-anchor);
-    color:#fff;
+    color:var(--color-primary);
     font-size:15px;
     line-height:22.5px;
     padding:12px 20px;
@@ -42,7 +42,6 @@ p{
 /* #home and it's elements */
 #home{
     width:100%;
-    border:1px solid gold;
     padding:32px 16px;
     text-align:center;
     color:var(--color-primary);
@@ -64,11 +63,9 @@ p{
     display:inline;
     line-height:22.5px;
     text-align:center;
-    border:1px solid blue;
 }
 /* about */
 #about{
-    border:1px solid red;
     color:var(--color-secondary);
     font-size:15px;
     line-height:22.5px;
@@ -95,7 +92,6 @@ hr{
 /* margintop and bottom the p */
 #hero-section p{
     margin:15px 0px;
-    border:1px solid olivedrab;
 }
 #about h3{
     font-size:24px;
@@ -106,7 +102,6 @@ hr{
 /* styling the container showcasing the knowledge */
 #skills{
     width:100%;
-    border:1px solid blue;
 }
 #skills p{
     letter-spacing:4px;
@@ -116,7 +111,6 @@ hr{
 }
 .skills-container{
     width:100%;
-    border:1px solid green;
 }
 /* div for ranking  */
 .skills-container .rate{

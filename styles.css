@@ -1,0 +1,25 @@
+/* importing the font family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+/* removing the default padding and margin given by browser */
+*,::after,::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* defining the variable that will be usesd in entirely projects */
+:root{
+    --color-primary:#fff;
+    --color-secondary: #757575;
+    --color-tertiary: #f1f1f1;
+    --color-hover:#616161;
+    --color-anchor:#4caf50;
+    --background-secondary-color:#ccc;
+    --background-primary-color:#000;
+
+    --font-family:"Montserrat", sans-serif;
+}
+body{
+    font-family: var(--font-family);
+    background-color: var(--background-primary-color);
+    color: var(--color-secondary);
+}

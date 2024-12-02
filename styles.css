@@ -192,15 +192,19 @@ hr{
 }
 .cards li:last-child{
     border-bottom: unset;
-    background: var(--color-secondary);
+    background:#bcbbbb;
 }
 .cards li button{
-    background: var(--color-tertiary);
+    background:#d4d2d2;
 }
 .cards li:last-child:hover {
     background: var(--color-tertiary);
 }
 .cards li:last-child:hover button{
+    background:var(--color-primary);
+}
+
+.cards li:last-child:hover button:hover{
     background: var(--background-primary-color);
     color:var(--color-tertiary)
 }

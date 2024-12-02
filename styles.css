@@ -176,6 +176,7 @@ button i{
 
 #photos{
     margin:0px 20px;
+    border:1px solid green;
     padding:64px 0px;
 }
 .image-grid{
@@ -192,5 +193,38 @@ button i{
     width: 100%;
     margin-bottom: 12px;
 }
+/* contact part  */
+#contact{
+    margin:0px 20px;
+    padding:64px 0px;
+    color: var(--color-secondary);
+}
+#contact #social-media{
+    margin:16px 0px;
+}
+#social-media p{
+    margin:20px 0px; 
+}
+#social-media p i{
+    display:inline-block;
+    font-size:35px;
+    margin:0px 16px 0px 0px;
+    color:var(--color-primary);
+}
+#contact p{
+    margin:15px 0px;
+}
+form{
+    width:100%;
+}
+form input{
+    width:100%;
+    display: block;
+    margin:15px 0;
+    padding:16px 8px;
+    outline: none;
+    font-size: 16px;
+}
+
 
 
